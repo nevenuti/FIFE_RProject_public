@@ -1,0 +1,6 @@
+"Tree size (cm DBH)","Threshold point (% crown vol damage)","Mean predicted cone count [±1SE] at 5% crown vol damage","Mean predicted cone count [±1SE] at 50% crown vol damage","Mean predicted cone count [±1SE] at threshold point","Mean predicted cone count [±1SE] at 95% crown vol damage","Percent change in cone count (50% vs. 5% crown vol damage)","Percent change in cone count (threshold point vs. 
+           5% crown vol damage)","Percent change in cone count (95% vs. 50% crown vol damage)","Percent change in cone count (95% crown vol damage vs. 
+           threshold point)","Percent change in cone count (95% vs. 5% crown vol damage)"
+"10th percentile (47.4)","74.9","5 [4, 7]","5 [4, 7]","4 [3, 5]","2 [1, 2]",-4.5,-30.7,-64.1,-50.5,-65.7
+"50th percentile (68.8)","74.9","12 [10, 15]","15 [12, 19]","13 [11, 16]","7 [6, 10]",27.6,8.7,-52,-43.7,-38.8
+"90th percentile (102.0)","74.9","35 [27, 46]","38 [30, 48]","29 [23, 38]","15 [11, 21]",7.1,-17.1,-59.7,-47.9,-56.8

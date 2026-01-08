@@ -1,0 +1,5 @@
+"model_name","n","Mistletoe_edf","Mistletoe_pvalue","deviance_explained"
+"ABCO_m4",196,"1.00","0.326","0.31"
+"ABCO_m8",148,"1.71","0.425","0.37"
+"PIPJ_m4",205,"2.19","0.179","0.46"
+"PIPJ_m8",164,"1.20","0.049*","0.44"

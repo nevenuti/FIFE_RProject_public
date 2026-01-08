@@ -4,7 +4,6 @@ by PhD student Nina E. Venuti at the University of California, Davis, with
 mentorship from Dr. Andrew M. Latimer and Dr. Derek J. N. Young.
 
 
-
 This repository is organized into three main folders: **1) data**, 
 **2) scripts**, and **3) results**.
 

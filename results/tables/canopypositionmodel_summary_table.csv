@@ -1,0 +1,7 @@
+"model_name","n","CanopyPositionDO_coeff","CanopyPositionDO_pvalue","deviance_explained"
+"ABCO_m3",196," 0.14","0.520","0.31"
+"ABCO_m7",148," 0.28","0.244","0.37"
+"PIPJ_m3",205," 0.15","0.587","0.45"
+"PIPJ_m7",164,"-0.64","0.080'","0.44"
+"PILA_m3",139," 0.33","0.184","0.44"
+"PILA_m7",111,"-0.29","0.388","0.43"

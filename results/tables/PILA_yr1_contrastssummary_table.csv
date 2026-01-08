@@ -1,0 +1,9 @@
+"Tree size (cm DBH)","Threshold point (% crown vol damage)","Mean ratio [95% CI] in predicted cone counts 
+           (threshold/5% crown vol damage)","p-value for contrast (threshold/5% crown vol damage)","Mean ratio [95% CI] in predicted cone counts 
+           (50%/5% crown vol damage)","p-value for contrast (50%/5% crown vol damage)","Mean ratio [95% CI] in predicted cone counts
+           (95% crown vol damage/threshold)","p-value for contrast (95% crown vol damage/threshold)","Mean ratio [95% CI] in predicted cone counts 
+           (95%/50% crown vol damage)","p-value for contrast (95%/50% crown vol damage)","Mean ratio [95% CI] in predicted cone counts
+           (95%/5% crown vol damage)","p-value for contrast (95%/5% crown vol damage)"
+"10th percentile ( 47.1)","  NA","  NA [  NA,   NA]","   NA","0.30 [0.10, 0.86]","0.017*","  NA [  NA,   NA]","   NA","1.51 [0.42, 5.44]","1.000","0.45 [0.10, 1.96]","0.797"
+"50th percentile ( 68.1)","37.6","0.75 [0.49, 1.14]","0.365","0.62 [0.37, 1.05]","0.095'","0.34 [0.15, 0.73]","0.002**","0.40 [0.21, 0.79]","0.003**","0.25 [0.10, 0.66]","0.001**"
+"90th percentile (106.7)","37.6","1.43 [0.62, 3.33]","1.000","1.36 [0.53, 3.46]","1.000","0.38 [0.09, 1.65]","0.443","0.41 [0.11, 1.55]","0.407","0.55 [0.14, 2.18]","1.000"
