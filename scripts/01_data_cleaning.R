@@ -78,19 +78,19 @@ cone_data_2022_clean <- cone_data_2022 %>%
 ## exporting each of the cleaned dataframes as .csv's...
 
 # exporting the 2020 dataframe...
-write.csv(cone_data_2020_clean,
-          "data/cleaned/FIFE_data_2020_CLEAN.csv",
-          row.names = FALSE)
-
+# write.csv(cone_data_2020_clean,
+#           "data/cleaned/FIFE_data_2020_CLEAN.csv",
+#           row.names = FALSE)
+# 
 # exporting the 2021 dataframe...
-write.csv(cone_data_2021_clean,
-          "data/cleaned/FIFE_data_2021_CLEAN.csv",
-          row.names = FALSE)
-
+# write.csv(cone_data_2021_clean,
+#           "data/cleaned/FIFE_data_2021_CLEAN.csv",
+#           row.names = FALSE)
+# 
 # exporting the 2022 dataframe...
-write.csv(cone_data_2022_clean,
-          "data/cleaned/FIFE_data_2022_CLEAN.csv",
-          row.names = FALSE)
+# write.csv(cone_data_2022_clean,
+#           "data/cleaned/FIFE_data_2022_CLEAN.csv",
+#           row.names = FALSE)
 
 
 ## readying each of the cleaned dataframes for merge into a single
@@ -164,8 +164,8 @@ cone_data_allyrs <- bind_rows(cone_data_2020_formerge,
 
 
 ## exporting this merged dataframe as a .csv...
-write.csv(cone_data_allyrs,
-          "data/cleaned/FIFE_data_allyrs_CLEAN.csv",
-          row.names = FALSE)
+# write.csv(cone_data_allyrs,
+#           "data/cleaned/FIFE_data_allyrs_CLEAN.csv",
+#           row.names = FALSE)
 
 

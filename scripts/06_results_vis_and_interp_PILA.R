@@ -5,6 +5,9 @@
 
 # Author: Nina Venuti
 
+# Acknowledgements: sections of code used to plot final results figures
+# were adapted from Claire Tortorelli
+
 # Script inputs: 1) two fitted generalized additive models (GAMs) that 
 # represent the "base models" for yr1 and yr2 PILA cone counts (ie.
 # PILA_myr1 and PILA_myr2), and 2) the species and sample year-specific
@@ -466,46 +469,46 @@ PILA_mediantree_plot_wrug_greyscale
 # exporting the PILA_myr1 plot, the PILA_myr2 plot, and the cross-
 # sample year median tree plot (with and without grey-scale and
 # stacked rug plots) as both .pngs and .pdfs...
-ggsave(plot = PILA_myr1_plot,
-       filename = "results/final/figures/PILA_yr1_plot.png")
-ggsave(plot = PILA_myr1_plot,
-       filename = "results/final/figures/PILA_yr1_plot.pdf")
-
-ggsave(plot = PILA_myr2_plot,
-       filename = "results/final/figures/PILA_yr2_plot.png")
-ggsave(plot = PILA_myr2_plot,
-       filename = "results/final/figures/PILA_yr2_plot.pdf")
-
-ggsave(plot = PILA_mediantree_plot,
-       filename = "results/final/figures/PILA_mediantree_plot.png")
-ggsave(plot = PILA_mediantree_plot,
-       filename = "results/final/figures/PILA_mediantree_plot.pdf")
-
-ggsave(plot = PILA_mediantree_plot_wrug_greyscale,
-       filename = "results/final/figures/PILA_mediantree_plot_wrug.png")
-ggsave(plot = PILA_mediantree_plot_wrug_greyscale,
-       filename = "results/final/figures/PILA_mediantree_plot_wrug.pdf")
-
-ggsave(plot = PILA_mediantree_plot_wrug_stacked,
-       filename = "results/final/figures/PILA_mediantree_plot_wrug_stacked.png")
-ggsave(plot = PILA_mediantree_plot_wrug_stacked,
-       filename = "results/final/figures/PILA_mediantree_plot_wrug_stacked.pdf")
+# ggsave(plot = PILA_myr1_plot,
+#        filename = "results/final/figures/PILA_yr1_plot.png")
+# ggsave(plot = PILA_myr1_plot,
+#        filename = "results/final/figures/PILA_yr1_plot.pdf")
+# 
+# ggsave(plot = PILA_myr2_plot,
+#        filename = "results/final/figures/PILA_yr2_plot.png")
+# ggsave(plot = PILA_myr2_plot,
+#        filename = "results/final/figures/PILA_yr2_plot.pdf")
+# 
+# ggsave(plot = PILA_mediantree_plot,
+#        filename = "results/final/figures/PILA_mediantree_plot.png")
+# ggsave(plot = PILA_mediantree_plot,
+#        filename = "results/final/figures/PILA_mediantree_plot.pdf")
+# 
+# ggsave(plot = PILA_mediantree_plot_wrug_greyscale,
+#        filename = "results/final/figures/PILA_mediantree_plot_wrug.png")
+# ggsave(plot = PILA_mediantree_plot_wrug_greyscale,
+#        filename = "results/final/figures/PILA_mediantree_plot_wrug.pdf")
+# 
+# ggsave(plot = PILA_mediantree_plot_wrug_stacked,
+#        filename = "results/final/figures/PILA_mediantree_plot_wrug_stacked.png")
+# ggsave(plot = PILA_mediantree_plot_wrug_stacked,
+#        filename = "results/final/figures/PILA_mediantree_plot_wrug_stacked.pdf")
 
 # exporting the percent change tables and the contrasts summary tables
 # for both sample years as .csv files...
-write.csv(PILA_myr1_percentchange_table,
-          "results/final/tables/PILA_yr1_percentchange_table.csv",
-          row.names = FALSE)
-write.csv(PILA_myr1_contrasts_summary_table_wide,
-          "results/final/tables/PILA_yr1_contrastssummary_table.csv",
-          row.names = FALSE)
-
-write.csv(PILA_myr2_percentchange_table,
-          "results/final/tables/PILA_yr2_percentchange_table.csv",
-          row.names = FALSE)
-write.csv(PILA_myr2_contrasts_summary_table_wide,
-          "results/final/tables/PILA_yr2_contrastssummary_table.csv",
-          row.names = FALSE)
+# write.csv(PILA_myr1_percentchange_table,
+#           "results/final/tables/PILA_yr1_percentchange_table.csv",
+#           row.names = FALSE)
+# write.csv(PILA_myr1_contrasts_summary_table_wide,
+#           "results/final/tables/PILA_yr1_contrastssummary_table.csv",
+#           row.names = FALSE)
+# 
+# write.csv(PILA_myr2_percentchange_table,
+#           "results/final/tables/PILA_yr2_percentchange_table.csv",
+#           row.names = FALSE)
+# write.csv(PILA_myr2_contrasts_summary_table_wide,
+#           "results/final/tables/PILA_yr2_contrastssummary_table.csv",
+#           row.names = FALSE)
 
 
 

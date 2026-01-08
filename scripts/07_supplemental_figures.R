@@ -140,19 +140,19 @@ DBH_effects_plot_ALLSPPYRS <- plot_grid(DBH_effects_plot_ABCOyr1,
 DBH_effects_plot_ALLSPPYRS
 
 # exporting this panel plot as both a .png and a .pdf file...
-ggsave(plot = DBH_effects_plot_ALLSPPYRS,
-       filename = "results/final/figures/DBH_partial_effects_plot_allspp.png",
-       width = 18, 
-       height = 22,
-       units = "cm",
-       dpi = 400)
-
-ggsave(plot = DBH_effects_plot_ALLSPPYRS,
-       filename = "results/final/figures/DBH_partial_effects_plot_allspp.pdf",
-       width = 18, 
-       height = 22,
-       units = "cm",
-       dpi = 400)
+# ggsave(plot = DBH_effects_plot_ALLSPPYRS,
+#        filename = "results/final/figures/DBH_partial_effects_plot_allspp.png",
+#        width = 18, 
+#        height = 22,
+#        units = "cm",
+#        dpi = 400)
+# 
+# ggsave(plot = DBH_effects_plot_ALLSPPYRS,
+#        filename = "results/final/figures/DBH_partial_effects_plot_allspp.pdf",
+#        width = 18, 
+#        height = 22,
+#        units = "cm",
+#        dpi = 400)
 
 
 
@@ -187,19 +187,19 @@ mistletoe_effects_plot_PIPJyr2_plusrug
 
 # exporting the mistletoe partial effects plot (with rug) as both a 
 # .png and a .pdf file...
-ggsave(plot = mistletoe_effects_plot_PIPJyr2_plusrug,
-       filename = "results/final/figures/Mistletoe_partial_effects_plot_PIPJyr2.png",
-       width = 6, 
-       height = 4,
-       units = "in",
-       dpi = 400)
-
-ggsave(plot = mistletoe_effects_plot_PIPJyr2_plusrug,
-       filename = "results/final/figures/Mistletoe_partial_effects_plot_PIPJyr2.pdf",
-       width = 6, 
-       height = 4,
-       units = "in",
-       dpi = 400)
+# ggsave(plot = mistletoe_effects_plot_PIPJyr2_plusrug,
+#        filename = "results/final/figures/Mistletoe_partial_effects_plot_PIPJyr2.png",
+#        width = 6, 
+#        height = 4,
+#        units = "in",
+#        dpi = 400)
+# 
+# ggsave(plot = mistletoe_effects_plot_PIPJyr2_plusrug,
+#        filename = "results/final/figures/Mistletoe_partial_effects_plot_PIPJyr2.pdf",
+#        width = 6, 
+#        height = 4,
+#        units = "in",
+#        dpi = 400)
 
 
 

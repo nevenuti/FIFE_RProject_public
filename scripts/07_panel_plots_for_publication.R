@@ -4,6 +4,9 @@
 
 # Author: Nina Venuti
 
+# Acknowledgements: sections of code used to plot final results figures
+# were adapted from Claire Tortorelli
+
 # Script inputs: a series of data.frames used to plot the results of each
 # species-year base model in each iteration of script #6 ("06_results_vis_
 # and_interp_SPPCODE.R"). These data.frames include species-year specific
@@ -247,19 +250,19 @@ mediantree_panel_wlegend
 
 
 # exporting this median tree panel plot as both a .png and a .pdf file...
-ggsave(plot = mediantree_panel_wlegend,
-       filename = "results/final/figures/mediantree_panelplot_allspp.png",
-       width = 8.5,
-       height = 22,
-       units = "cm",
-       dpi = 600)
+# ggsave(plot = mediantree_panel_wlegend,
+#        filename = "results/final/figures/mediantree_panelplot_allspp.png",
+#        width = 8.5,
+#        height = 22,
+#        units = "cm",
+#        dpi = 600)
 
-ggsave(plot = mediantree_panel_wlegend,
-       filename = "results/final/figures/mediantree_panelplot_allspp.pdf",
-       width = 8.5,
-       height = 22,
-       units = "cm",
-       dpi = 600)
+# ggsave(plot = mediantree_panel_wlegend,
+#        filename = "results/final/figures/mediantree_panelplot_allspp.pdf",
+#        width = 8.5,
+#        height = 22,
+#        units = "cm",
+#        dpi = 600)
 
 
 
@@ -627,19 +630,19 @@ intx_plot_panel_wlegend
 
 # exporting this size-damage interaction panel plot as both a .png and 
 # a .pdf file...
-ggsave(plot = intx_plot_panel_wlegend,
-       filename = "results/final/figures/size-damage-intx_panelplot_allspp.png",
-       width = 18,
-       height = 22,
-       units = "cm",
-       dpi = 600)
-
-ggsave(plot = intx_plot_panel_wlegend,
-       filename = "results/final/figures/size-damage-intx_panelplot_allspp.pdf",
-       width = 18,
-       height = 22,
-       units = "cm",
-       dpi = 600)
+# ggsave(plot = intx_plot_panel_wlegend,
+#        filename = "results/final/figures/size-damage-intx_panelplot_allspp.png",
+#        width = 18,
+#        height = 22,
+#        units = "cm",
+#        dpi = 600)
+# 
+# ggsave(plot = intx_plot_panel_wlegend,
+#        filename = "results/final/figures/size-damage-intx_panelplot_allspp.pdf",
+#        width = 18,
+#        height = 22,
+#        units = "cm",
+#        dpi = 600)
 
 
 
@@ -736,19 +739,19 @@ intx_plot_panel_yr1_wlegend
 
 # exporting this year 1 size-damage interaction panel plot as both a .png and 
 # a .pdf file...
-ggsave(plot = intx_plot_panel_yr1_wlegend,
-       filename = "results/final/figures/size-damage-intx_yr1_panelplot_allspp.png",
-       width = 8.5,
-       height = 22,
-       units = "cm",
-       dpi = 600)
-
-ggsave(plot = intx_plot_panel_yr1_wlegend,
-       filename = "results/final/figures/size-damage-intx_yr1_panelplot_allspp.pdf",
-       width = 8.5,
-       height = 22,
-       units = "cm",
-       dpi = 600)
+# ggsave(plot = intx_plot_panel_yr1_wlegend,
+#        filename = "results/final/figures/size-damage-intx_yr1_panelplot_allspp.png",
+#        width = 8.5,
+#        height = 22,
+#        units = "cm",
+#        dpi = 600)
+# 
+# ggsave(plot = intx_plot_panel_yr1_wlegend,
+#        filename = "results/final/figures/size-damage-intx_yr1_panelplot_allspp.pdf",
+#        width = 8.5,
+#        height = 22,
+#        units = "cm",
+#        dpi = 600)
 
 
 # doing the same thing for the year 2 interaction plots...
@@ -777,19 +780,19 @@ intx_plot_panel_yr2_wlegend
 
 # exporting the year 2 size-damage interaction panel plot as both a .png and 
 # a .pdf file...
-ggsave(plot = intx_plot_panel_yr2_wlegend,
-       filename = "results/final/figures/size-damage-intx_yr2_panelplot_allspp.png",
-       width = 8.5,
-       height = 22,
-       units = "cm",
-       dpi = 600)
-
-ggsave(plot = intx_plot_panel_yr2_wlegend,
-       filename = "results/final/figures/size-damage-intx_yr2_panelplot_allspp.pdf",
-       width = 8.5,
-       height = 22,
-       units = "cm",
-       dpi = 600)
+# ggsave(plot = intx_plot_panel_yr2_wlegend,
+#        filename = "results/final/figures/size-damage-intx_yr2_panelplot_allspp.png",
+#        width = 8.5,
+#        height = 22,
+#        units = "cm",
+#        dpi = 600)
+# 
+# ggsave(plot = intx_plot_panel_yr2_wlegend,
+#        filename = "results/final/figures/size-damage-intx_yr2_panelplot_allspp.pdf",
+#        width = 8.5,
+#        height = 22,
+#        units = "cm",
+#        dpi = 600)
 
 
 
@@ -811,19 +814,19 @@ PILA_myr1_plot_small <- plot_grid(intx_plot_legend_smaller,
 PILA_myr1_plot_small
 
 # exporting this reformatted PILA_myr1_plot as both a .png and .pdf file...
-ggsave(plot = PILA_myr1_plot_small,
-       filename = "results/final/figures/PILA_yr1_plot_small.png",
-       width = 8.5,
-       height = 8,
-       units = "cm",
-       dpi = 600)
-
-ggsave(plot = PILA_myr1_plot_small,
-       filename = "results/final/figures/PILA_yr1_plot_small.pdf",
-       width = 8.5,
-       height = 8,
-       units = "cm",
-       dpi = 600)
+# ggsave(plot = PILA_myr1_plot_small,
+#        filename = "results/final/figures/PILA_yr1_plot_small.png",
+#        width = 8.5,
+#        height = 8,
+#        units = "cm",
+#        dpi = 600)
+# 
+# ggsave(plot = PILA_myr1_plot_small,
+#        filename = "results/final/figures/PILA_yr1_plot_small.pdf",
+#        width = 8.5,
+#        height = 8,
+#        units = "cm",
+#        dpi = 600)
 
 
 

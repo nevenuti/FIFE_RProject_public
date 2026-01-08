@@ -5,6 +5,9 @@
 
 # Author: Nina Venuti
 
+# Acknowledgements: sections of code used to plot final results figures
+# were adapted from Claire Tortorelli
+
 # Script inputs: 1) two fitted generalized additive models (GAMs) that 
 # represent the "base models" for yr1 and yr2 PIPJ cone counts (ie.
 # PIPJ_myr1 and PIPJ_myr2), and 2) the species and sample year-specific
@@ -439,46 +442,46 @@ PIPJ_mediantree_plot_wrug_greyscale
 # exporting the PIPJ_myr1 plot, the PIPJ_myr2 plot, and the cross-
 # sample year median tree plot (with and without grey-scale and
 # stacked rug plots) as both .pngs and .pdfs...
-ggsave(plot = PIPJ_myr1_plot,
-       filename = "results/final/figures/PIPJ_yr1_plot.png")
-ggsave(plot = PIPJ_myr1_plot,
-       filename = "results/final/figures/PIPJ_yr1_plot.pdf")
-
-ggsave(plot = PIPJ_myr2_plot,
-       filename = "results/final/figures/PIPJ_yr2_plot.png")
-ggsave(plot = PIPJ_myr2_plot,
-       filename = "results/final/figures/PIPJ_yr2_plot.pdf")
-
-ggsave(plot = PIPJ_mediantree_plot,
-       filename = "results/final/figures/PIPJ_mediantree_plot.png")
-ggsave(plot = PIPJ_mediantree_plot,
-       filename = "results/final/figures/PIPJ_mediantree_plot.pdf")
-
-ggsave(plot = PIPJ_mediantree_plot_wrug_greyscale,
-       filename = "results/final/figures/PIPJ_mediantree_plot_wrug.png")
-ggsave(plot = PIPJ_mediantree_plot_wrug_greyscale,
-       filename = "results/final/figures/PIPJ_mediantree_plot_wrug.pdf")
-
-ggsave(plot = PIPJ_mediantree_plot_wrug_stacked,
-       filename = "results/final/figures/PIPJ_mediantree_plot_wrug_stacked.png")
-ggsave(plot = PIPJ_mediantree_plot_wrug_stacked,
-       filename = "results/final/figures/PIPJ_mediantree_plot_wrug_stacked.pdf")
+# ggsave(plot = PIPJ_myr1_plot,
+#        filename = "results/final/figures/PIPJ_yr1_plot.png")
+# ggsave(plot = PIPJ_myr1_plot,
+#        filename = "results/final/figures/PIPJ_yr1_plot.pdf")
+# 
+# ggsave(plot = PIPJ_myr2_plot,
+#        filename = "results/final/figures/PIPJ_yr2_plot.png")
+# ggsave(plot = PIPJ_myr2_plot,
+#        filename = "results/final/figures/PIPJ_yr2_plot.pdf")
+# 
+# ggsave(plot = PIPJ_mediantree_plot,
+#        filename = "results/final/figures/PIPJ_mediantree_plot.png")
+# ggsave(plot = PIPJ_mediantree_plot,
+#        filename = "results/final/figures/PIPJ_mediantree_plot.pdf")
+# 
+# ggsave(plot = PIPJ_mediantree_plot_wrug_greyscale,
+#        filename = "results/final/figures/PIPJ_mediantree_plot_wrug.png")
+# ggsave(plot = PIPJ_mediantree_plot_wrug_greyscale,
+#        filename = "results/final/figures/PIPJ_mediantree_plot_wrug.pdf")
+# 
+# ggsave(plot = PIPJ_mediantree_plot_wrug_stacked,
+#        filename = "results/final/figures/PIPJ_mediantree_plot_wrug_stacked.png")
+# ggsave(plot = PIPJ_mediantree_plot_wrug_stacked,
+#        filename = "results/final/figures/PIPJ_mediantree_plot_wrug_stacked.pdf")
 
 # exporting the percent change tables and the contrasts summary tables
 # for both sample years as .csv files...
-write.csv(PIPJ_myr1_percentchange_table,
-          "results/final/tables/PIPJ_yr1_percentchange_table.csv",
-          row.names = FALSE)
-write.csv(PIPJ_myr1_contrasts_summary_table_wide,
-          "results/final/tables/PIPJ_yr1_contrastssummary_table.csv",
-          row.names = FALSE)
-
-write.csv(PIPJ_myr2_percentchange_table,
-          "results/final/tables/PIPJ_yr2_percentchange_table.csv",
-          row.names = FALSE)
-write.csv(PIPJ_myr2_contrasts_summary_table_wide,
-          "results/final/tables/PIPJ_yr2_contrastssummary_table.csv",
-          row.names = FALSE)
+# write.csv(PIPJ_myr1_percentchange_table,
+#           "results/final/tables/PIPJ_yr1_percentchange_table.csv",
+#           row.names = FALSE)
+# write.csv(PIPJ_myr1_contrasts_summary_table_wide,
+#           "results/final/tables/PIPJ_yr1_contrastssummary_table.csv",
+#           row.names = FALSE)
+# 
+# write.csv(PIPJ_myr2_percentchange_table,
+#           "results/final/tables/PIPJ_yr2_percentchange_table.csv",
+#           row.names = FALSE)
+# write.csv(PIPJ_myr2_contrasts_summary_table_wide,
+#           "results/final/tables/PIPJ_yr2_contrastssummary_table.csv",
+#           row.names = FALSE)
 
 
 

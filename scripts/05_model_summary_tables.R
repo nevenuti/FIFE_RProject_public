@@ -78,29 +78,29 @@ mistletoe_summary_table <- E_compile_mistletoe_model_estimates(
 ## exporting each of these summary tables as .csv files...
 
 # exporting the base model summary table...
-write.csv(basemodel_summary_table,
-          "results/final/tables/basemodel_summary_table.csv",
-          row.names = FALSE)
+# write.csv(basemodel_summary_table,
+#           "results/final/tables/basemodel_summary_table.csv",
+#           row.names = FALSE)
 
 # exporting the base model site effects table...
-write.csv(basemodel_siteeffects_table,
-          "results/final/tables/basemodel_siteeffects_table.csv",
-          row.names = FALSE)
+# write.csv(basemodel_siteeffects_table,
+#           "results/final/tables/basemodel_siteeffects_table.csv",
+#           row.names = FALSE)
 
 # exporting the BoleChar model summary table...
-write.csv(bolechar_summary_table,
-          "results/final/tables/bolecharmodel_summary_table.csv",
-          row.names = FALSE)
+# write.csv(bolechar_summary_table,
+#           "results/final/tables/bolecharmodel_summary_table.csv",
+#           row.names = FALSE)
 
 # exporting the CanopyPosition model summary table...
-write.csv(canopyposition_summary_table,
-          "results/final/tables/canopypositionmodel_summary_table.csv",
-          row.names = FALSE)
+# write.csv(canopyposition_summary_table,
+#           "results/final/tables/canopypositionmodel_summary_table.csv",
+#           row.names = FALSE)
 
 # exporting the Mistletoe_count model summary table...
-write.csv(mistletoe_summary_table,
-          "results/final/tables/mistletoemodel_summary_table.csv",
-          row.names = FALSE)
+# write.csv(mistletoe_summary_table,
+#           "results/final/tables/mistletoemodel_summary_table.csv",
+#           row.names = FALSE)
 
 
 

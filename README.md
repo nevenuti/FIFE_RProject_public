@@ -29,10 +29,12 @@ figures and tables (scripts 04, 05, 06, and 07, labeled according to taxon
 code, as appropriate). Running these scripts in order will allow interested 
 parties to both trace decisions made during FIFE data analysis, and
 reproduce final project results. It is recommended that interested parties
-review script 01, but begin running code with script 02, which utilizes
-the full, cleaned dataset available to the public via the Dryad repository. 
-Running script 01 relies on access to the original, raw data files (which 
-contain some errors, and are thus not made available to the public).
+review script 01, but begin running code with either script 02 (which 
+utilizes the full, cleaned dataset available to the public via the Dryad
+repository) or script 03 (which utilizes the final model dataset available
+to the public via the Dryad repository). Running script 01 relies on access
+to the original, raw data files (which contain some errors, and are thus 
+not made available to the public).
 
 **3) The results folder** is divided into two sub-folders, containing
 final model results figures and tables formatted for publication:

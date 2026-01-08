@@ -18,7 +18,7 @@ library("corrplot")
 library("mgcv")
 
 ## loading the final fire injury-fecundity model data...
-model_data <- read_csv("data/processed/FIFE_model_data_FINAL.csv")
+model_data <- read_csv("data/FIFE_model_data_FINAL.csv")
 
 
 ## taking a few more steps to prepare the data for modeling by

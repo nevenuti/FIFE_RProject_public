@@ -19,7 +19,7 @@
 library("tidyverse")
 
 ## loading cleaned and compiled project data...
-cone_data_allyrs <- read_csv("data/cleaned/FIFE_data_allyrs_CLEAN.csv")
+cone_data_allyrs <- read_csv("data/FIFE_data_allyrs_CLEAN.csv")
 
 ## simplifying the cleaned, compiled dataframe by removing columns 
 ## unnecessary for planned analyses...
@@ -250,9 +250,9 @@ cone_data_allyrs_summarystats <- cone_data_allyrs_summarystats %>%
 ## exporting this dataframe (the extended version of the model data, 
 ## inclusive of variables that are not used for final model fitting and
 ## selection) as a .csv...
-write.csv(cone_data_allyrs_summarystats,
-          "data/processed/FIFE_model_data_EXTENDED.csv", 
-          row.names = FALSE)
+# write.csv(cone_data_allyrs_summarystats,
+#           "data/processed/FIFE_model_data_EXTENDED.csv", 
+#           row.names = FALSE)
 
 
 
@@ -266,8 +266,8 @@ cone_data_allyrs_summarystats_slim <- cone_data_allyrs_summarystats %>%
   select(c(1:6, 9:10, 13:15, 67:68, 70:71, 73:74))
 
 # exporting this dataframe (the final model data) as a .csv...
-write.csv(cone_data_allyrs_summarystats_slim,
-          "data/processed/FIFE_model_data_FINAL.csv", 
-          row.names = FALSE)
+# write.csv(cone_data_allyrs_summarystats_slim,
+#           "data/processed/FIFE_model_data_FINAL.csv", 
+#           row.names = FALSE)
 
 
