@@ -10,13 +10,13 @@ This repository is organized into three main folders: **1) data**,
 **1) The data folder** is empty, and serves as a receptacle for the data
 files stored in the FIFE project's data repository, published on Dryad
 [permanent link to come]. Individuals interested in running the scripts
-for the FIFE project should fork the GitHub repository ("FIFE_RProject_
-public"), navigate to the Dryad repository [link to come], download the
-.csv and .txt files contained therein, and store those files in the
-the data folder within their local (forked) copy of the GitHub repository.
-All references to the data directory within FIFE project scripts
+for the FIFE project should fork and clone the GitHub repository ("FIFE_
+RProject_public"), navigate to the Dryad repository [link to come], download 
+the .csv and .txt files contained therein, and store those files in the
+the data folder within their local (forked and cloned) copy of the GitHub 
+repository. All references to the data directory within FIFE project scripts
 are relative; scripts should run easily once data files are downloaded
-from Dryad and deposited in the data folder.
+from Dryad and deposited in the user's local copy of the data folder.
 
 **2) The scripts folder** contains a series of scripts, ordered from
 01 through 07, that document the steps taken to clean and prepare the
